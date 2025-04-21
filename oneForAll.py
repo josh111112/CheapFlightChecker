@@ -4,7 +4,7 @@ import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 import datetime
-from myconfig import *
+from config import *
 
 
 for arrival_id in ARRIVAL_ID:
